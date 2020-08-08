@@ -55,13 +55,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Terrain\Noise.cs" />
     <Compile Include="Assets\Scripts\Player\ShipRotation.cs" />
+    <Compile Include="Assets\Scripts\Terrain\MapDisplay.cs" />
+    <Compile Include="Assets\Scripts\Terrain\MapGenerator.cs" />
     <Compile Include="Assets\Scripts\Player\SimpleMovement.cs" />
     <Compile Include="Assets\Scripts\Player\CameraPosition.cs" />
     <Compile Include="Assets\Scripts\Player\CenterOfMass.cs" />
-    <Compile Include="Assets\Scripts\Terrain\Noise.cs" />
-    <Compile Include="Assets\Scripts\Terrain\MapGenerator.cs" />
-    <Compile Include="Assets\Scripts\Terrain\MapDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
